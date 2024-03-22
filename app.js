@@ -19,3 +19,42 @@
 //         alert("Found 'N'")
 //     }
 // }
+
+                                    // QUESTION-NO-07
+// var text1 = "City: Hyderabad";
+
+
+// for(var i =0;i<text1.length;i++)
+// {
+//     if(text1.slice(i,i+5)=== "Hyder"){
+//         text = text1.slice(0,i) + "Islamabad";
+//         document.write(text1 + "<br>"+"After replacement: "+text)
+//     }
+// }
+
+                                //    QUESTION-NO-10
+
+// var userinput = prompt("Enter your name");
+// var userinputLC = userinput.toLowerCase();
+// var userinputUC = userinput.toUpperCase();
+
+// document.write("To LowerCase: "+ userinputLC + "<br>" + "To UpperCase: " + userinputUC)
+
+                                                    // QUESTION-NO-11
+
+// var userinput = prompt("Enter your name");
+// var userinputLC = userinput.toLowerCase();
+// var userinputUC = userinput.toUpperCase();
+
+// document.write("User Input: "+ userinputLC + "<br>" + "Title Case: " + userinputUC)
+
+                            //  QUESTION-NO-12
+
+var num = 35.36
+for(var i= 0;i<num.length;i++){
+    if(num.slice(i,i+1)=== "."){
+        tums=num.slice(0,i)+"3536";
+        document.write( tums);
+    }
+}
+
